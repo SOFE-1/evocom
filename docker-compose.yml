@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: evocom-postgres
+    environment:
+      POSTGRES_DB: evocom
+      POSTGRES_USER: evocom
+      POSTGRES_PASSWORD: evocom
+    ports:
+      - "5432:5432"
+    volumes:
+      - evocom-pg:/var/lib/postgresql/data
+
+volumes:
+  evocom-pg:
