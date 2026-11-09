@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#0b1220"/>
+  <text x="48" y="78" fill="#93c5fd" font-family="Arial, sans-serif" font-size="22" letter-spacing="3">IMOU</text>
+  <text x="48" y="124" fill="#ffffff" font-family="Arial, sans-serif" font-size="40" font-weight="700">Pan and tilt</text>
+  <text x="48" y="168" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">Ranger 2 Pro 4K</text>
+  <rect x="330" y="190" width="140" height="70" rx="10" fill="#e8eef8"/>
+  <rect x="375" y="260" width="50" height="70" fill="#9aa8be"/>
+  <ellipse cx="400" cy="350" rx="90" ry="24" fill="#c5d0e0"/>
+  <text x="48" y="500" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">Catalog illustration · specifications from the published Imou spec sheet</text>
+</svg>

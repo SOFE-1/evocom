@@ -26,6 +26,7 @@ class ScheduleResource extends JsonResource
             'starts_at' => $this->starts_at?->toIso8601String(),
             'ends_at' => $this->ends_at?->toIso8601String(),
             'notes' => $this->notes,
+            'cancelled_at' => $this->cancelled_at?->toIso8601String(),
         ];
     }
 }

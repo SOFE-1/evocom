@@ -1,0 +1,3642 @@
+[
+  {
+    "name": "IPC-HFW3441M-AS-SFC-I2",
+    "slug": "dahua-ipc-hfw3441m-as-sfc-i2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Anti-oil IR Fixed focal Bullet WizSense Network Camera",
+    "description": "4MP Anti-oil IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 40,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW4831T-ASE",
+    "slug": "dahua-ipc-hfw4831t-ase",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP WDR IR Mini Bullet  Network Camera",
+    "description": "8MP WDR IR Mini Bullet  Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 41,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW5831E-Z5E",
+    "slug": "dahua-ipc-hfw5831e-z5e",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP WDR IR Bullet Network Camera",
+    "description": "8MP WDR IR Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 42,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW5831E-ZE",
+    "slug": "dahua-ipc-hfw5831e-ze",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP WDR IR Bullet Network Camera",
+    "description": "8MP WDR IR Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 43,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW4831E-SE",
+    "slug": "dahua-ipc-hfw4831e-se",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP WDR IR Mini Bullet  Network Camera",
+    "description": "8MP WDR IR Mini Bullet  Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 44,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW5831E-Z5E",
+    "slug": "dahua-ipc-hdbw5831e-z5e",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP WDR IR Dome Network Camera",
+    "description": "8MP WDR IR Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 45,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW5831E-ZE",
+    "slug": "dahua-ipc-hdbw5831e-ze",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP WDR IR Dome Network Camera",
+    "description": "8MP WDR IR Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 46,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW5831R-ZE",
+    "slug": "dahua-ipc-hdbw5831r-ze",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP WDR IR Dome Network Camera",
+    "description": "8MP WDR IR Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 47,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW5831R-ZE",
+    "slug": "dahua-ipc-hdw5831r-ze",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP WDR IR Eyeball Network Camera",
+    "description": "8MP WDR IR Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 48,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW4831E-ASE",
+    "slug": "dahua-ipc-hdbw4831e-ase",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Mini Dome Network Camera",
+    "description": "8MP IR Mini Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 49,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW4831EM-ASE",
+    "slug": "dahua-ipc-hdw4831em-ase",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Eyeball Network Camera",
+    "description": "8MP IR Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 50,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW4631EM-ASE",
+    "slug": "dahua-ipc-hdw4631em-ase",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "6MP IR Eyeball Network Camera",
+    "description": "6MP IR Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 51,
+    "specifications": {
+      "Resolution": "6MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW5231E-ZE-HDMI",
+    "slug": "dahua-ipc-hdbw5231e-ze-hdmi",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP WDR IR Dome Network Camera",
+    "description": "2MP WDR IR Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 52,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW4239T-ASE",
+    "slug": "dahua-ipc-hfw4239t-ase",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP WDR Full-color Starlight Mini Bullet  Network Camera",
+    "description": "2MP WDR Full-color Starlight Mini Bullet  Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 53,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW4239R-ASE",
+    "slug": "dahua-ipc-hdbw4239r-ase",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP WDR Full-color Starlight Dome Network Camera",
+    "description": "2MP WDR Full-color Starlight Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 54,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2439M-AS-LED-B-S2",
+    "slug": "dahua-ipc-hfw2439m-as-led-b-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "4MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 55,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2239M-AS-LED-B-S2",
+    "slug": "dahua-ipc-hfw2239m-as-led-b-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "2MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 56,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2439S-SA-LED-S2",
+    "slug": "dahua-ipc-hfw2439s-sa-led-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "4MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 57,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2239S-SA-LED-S2",
+    "slug": "dahua-ipc-hfw2239s-sa-led-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "2MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 58,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2439T-AS-LED-S2",
+    "slug": "dahua-ipc-hdw2439t-as-led-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP Lite Full-color Fixed-focal Eyeball Network Camera",
+    "description": "4MP Lite Full-color Fixed-focal Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 59,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2239T-AS-LED-S2",
+    "slug": "dahua-ipc-hdw2239t-as-led-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Lite Full-color Fixed-focal Eyeball Network Camera",
+    "description": "2MP Lite Full-color Fixed-focal Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 60,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2230M-AS-LED",
+    "slug": "dahua-ipc-hfw2230m-as-led",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "2MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 61,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2230M-AS-LED-B",
+    "slug": "dahua-ipc-hfw2230m-as-led-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Lite Full-color Fixed-focal Bullet Network Camera",
+    "description": "2MP Lite Full-color Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 62,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2431F-AS-S2",
+    "slug": "dahua-ipc-hdbw2431f-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP Lite IR Fixed-focal Dome Network Camera",
+    "description": "4MP Lite IR Fixed-focal Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 63,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2231F-AS-S2",
+    "slug": "dahua-ipc-hdbw2231f-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP Lite IR Fixed-focal Dome Network Camera",
+    "description": "2MP Lite IR Fixed-focal Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 64,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2230S-S-S2",
+    "slug": "dahua-ipc-hfw2230s-s-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Lite IR Fixed-focal Bullet Network Camera",
+    "description": "2MP Lite IR Fixed-focal Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 65,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2230T-AS-S2",
+    "slug": "dahua-ipc-hdw2230t-as-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Lite IR Fixed-focal Eyeball Network Camera",
+    "description": "2MP Lite IR Fixed-focal Eyeball Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 66,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2230E-S-S2",
+    "slug": "dahua-ipc-hdbw2230e-s-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP Lite IR Fixed-focal Dome Network Camera",
+    "description": "2MP Lite IR Fixed-focal Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 67,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "PSDW5231S-B120",
+    "slug": "dahua-psdw5231s-b120",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "2MP Multi-Sensor Network Camera+PTZ Camera",
+    "description": "2MP Multi-Sensor Network Camera+PTZ Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 68,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "PSDW5631S-B360",
+    "slug": "dahua-psdw5631s-b360",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "3x2MP Multi-Sensor Network Camera+PTZ Camera",
+    "description": "3x2MP Multi-Sensor Network Camera+PTZ Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 69,
+    "specifications": {
+      "Type": "PTZ"
+    }
+  },
+  {
+    "name": "IPC-PDBW5831-B360",
+    "slug": "dahua-ipc-pdbw5831-b360",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "4 × 2 MP 4-Directional Panoramic Dome Network Camera",
+    "description": "4 × 2 MP 4-Directional Panoramic Dome Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 70,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-EBW8630-IVC",
+    "slug": "dahua-ipc-ebw8630-ivc",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "6MP Panoramic Network IR Fisheye Camera with Panamorph Lens",
+    "description": "6MP Panoramic Network IR Fisheye Camera with Panamorph Lens. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 71,
+    "specifications": {
+      "Resolution": "6MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3549TM-AS-LED",
+    "slug": "dahua-ipc-hdw3549tm-as-led",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP  Full-color Fixed-focal Warm LED Eyeball WizSense Network Camera",
+    "description": "5MP  Full-color Fixed-focal Warm LED Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 72,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3549E-AS-LED",
+    "slug": "dahua-ipc-hfw3549e-as-led",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP  Full-color Fixed-focal Warm LED Bullet WizSense Network Camera",
+    "description": "5MP  Full-color Fixed-focal Warm LED Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 73,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3449E-AS-NI",
+    "slug": "dahua-ipc-hfw3449e-as-ni",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Full-color Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP Full-color Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 74,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3449E-AS-LED",
+    "slug": "dahua-ipc-hfw3449e-as-led",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Full-color Warm LED Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP Full-color Warm LED Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 75,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3249E-AS-NI",
+    "slug": "dahua-ipc-hfw3249e-as-ni",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Full-color Fixed-focal Bullet WizSense Network Camera",
+    "description": "2MP Full-color Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 76,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3249E-AS-LED",
+    "slug": "dahua-ipc-hfw3249e-as-led",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Full-color Warm LED Bullet WizSense Network Camera",
+    "description": "2MP Full-color Warm LED Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 77,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3449TM-AS-NI",
+    "slug": "dahua-ipc-hdw3449tm-as-ni",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP Full-color Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP Full-color Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 78,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3449TM-AS-LED",
+    "slug": "dahua-ipc-hdw3449tm-as-led",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP Full-color Warm LED Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP Full-color Warm LED Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 79,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3249TM-AS-NI",
+    "slug": "dahua-ipc-hdw3249tm-as-ni",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Full-color Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP Full-color Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 80,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3249TM-AS-LED",
+    "slug": "dahua-ipc-hdw3249tm-as-led",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Full-color Warm LED Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP Full-color Warm LED Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 81,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3449E-AS-NI",
+    "slug": "dahua-ipc-hdbw3449e-as-ni",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP Full-color Fixed-focal Dome WizSense Network Camera",
+    "description": "4MP Full-color Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 82,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3249E-AS-NI",
+    "slug": "dahua-ipc-hdbw3249e-as-ni",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP Full-color Fixed-focal Dome WizSense Network Camera",
+    "description": "2MP Full-color Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 83,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3549H-AS-PV",
+    "slug": "dahua-ipc-hdw3549h-as-pv",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5 MP Smart Dual Light Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5 MP Smart Dual Light Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 84,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3449H-AS-PV",
+    "slug": "dahua-ipc-hdw3449h-as-pv",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4 MP Smart Dual Light Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4 MP Smart Dual Light Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 85,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3849T1-AS-PV",
+    "slug": "dahua-ipc-hfw3849t1-as-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "8MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 86,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3549T1-AS-PV",
+    "slug": "dahua-ipc-hfw3549t1-as-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "5MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 87,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3449T1-AS-PV",
+    "slug": "dahua-ipc-hfw3449t1-as-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP Smart Dual Light Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 88,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3849R1-ZAS-PV",
+    "slug": "dahua-ipc-hdbw3849r1-zas-pv",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera",
+    "description": "8MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 89,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3549R1-ZAS-PV",
+    "slug": "dahua-ipc-hdbw3549r1-zas-pv",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera",
+    "description": "5MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 90,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3449R1-ZAS-PV",
+    "slug": "dahua-ipc-hdbw3449r1-zas-pv",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera",
+    "description": "4MP Smart Dual Light Active Deterrence Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 91,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3849T1-ZAS-PV",
+    "slug": "dahua-ipc-hfw3849t1-zas-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera",
+    "description": "8MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 92,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3549T1-ZAS-PV",
+    "slug": "dahua-ipc-hfw3549t1-zas-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 93,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3449T1-ZAS-PV",
+    "slug": "dahua-ipc-hfw3449t1-zas-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP Smart Dual Light Active Deterrence Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 94,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3549H-AS-PV-S3",
+    "slug": "dahua-ipc-hdw3549h-as-pv-s3",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5 MP Smart Dual Illumination Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5 MP Smart Dual Illumination Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 95,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3449H-AS-PV-S3",
+    "slug": "dahua-ipc-hdw3449h-as-pv-s3",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4 MP Smart Dual Illumination Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4 MP Smart Dual Illumination Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 96,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3849T1-AS-PV-S3",
+    "slug": "dahua-ipc-hfw3849t1-as-pv-s3",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "8MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 97,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3549T1-AS-PV-S3",
+    "slug": "dahua-ipc-hfw3549t1-as-pv-s3",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "5MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 98,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3449T1-AS-PV-S3",
+    "slug": "dahua-ipc-hfw3449t1-as-pv-s3",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP Smart Dual Illumination Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 99,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3849H-AS-PV",
+    "slug": "dahua-ipc-hdw3849h-as-pv",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP Full-color Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "8MP Full-color Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 100,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3249T1-AS-PV",
+    "slug": "dahua-ipc-hfw3249t1-as-pv",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Full-color Active Deterrence Fixed-focal Bullet WizSense Network Camera",
+    "description": "2MP Full-color Active Deterrence Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 101,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3249H-AS-PV",
+    "slug": "dahua-ipc-hdw3249h-as-pv",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Full-color Active Deterrence Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP Full-color Active Deterrence Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 102,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3841T-ZS-S2",
+    "slug": "dahua-ipc-hdw3841t-zs-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "8MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 103,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3841EM-S-S2",
+    "slug": "dahua-ipc-hdw3841em-s-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "8MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 104,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841R-ZS-S2",
+    "slug": "dahua-ipc-hdbw3841r-zs-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "8MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 105,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841R-ZAS-S2",
+    "slug": "dahua-ipc-hdbw3841r-zas-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "8MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 106,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841E-S-S2",
+    "slug": "dahua-ipc-hdbw3841e-s-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "8MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 107,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841E-AS-S2",
+    "slug": "dahua-ipc-hdbw3841e-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "8MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 108,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841T-ZS-S2",
+    "slug": "dahua-ipc-hfw3841t-zs-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "8MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 109,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841T-ZAS-S2",
+    "slug": "dahua-ipc-hfw3841t-zas-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "8MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 110,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841E-S-S2",
+    "slug": "dahua-ipc-hfw3841e-s-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "8 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 111,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841E-AS-S2",
+    "slug": "dahua-ipc-hfw3841e-as-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "8 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 112,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841E-S",
+    "slug": "dahua-ipc-hdbw3841e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "8MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 113,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841E-AS",
+    "slug": "dahua-ipc-hfw3841e-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "8MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 114,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841E-SA",
+    "slug": "dahua-ipc-hfw3841e-sa",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "8MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 115,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841T-ZAS",
+    "slug": "dahua-ipc-hfw3841t-zas",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "8MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 116,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3841T-ZS",
+    "slug": "dahua-ipc-hfw3841t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "8MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 117,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841R-ZAS",
+    "slug": "dahua-ipc-hdbw3841r-zas",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "8MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 118,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3841R-ZS",
+    "slug": "dahua-ipc-hdbw3841r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "8MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "8MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 119,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3841EM-AS",
+    "slug": "dahua-ipc-hdw3841em-as",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Fixed focal Eyeball WizSense Network Camera",
+    "description": "8MP IR Fixed focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 120,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3841TM-AS",
+    "slug": "dahua-ipc-hdw3841tm-as",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Fixed focal Eyeball WizSense Network Camera",
+    "description": "8MP IR Fixed focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 121,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3841T-ZAS",
+    "slug": "dahua-ipc-hdw3841t-zas",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "8MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 122,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541F-AS-S2",
+    "slug": "dahua-ipc-hdbw3541f-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 123,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3541T-ZS-S2",
+    "slug": "dahua-ipc-hdw3541t-zs-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 124,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3541EM-S-S2",
+    "slug": "dahua-ipc-hdw3541em-s-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 125,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541R-ZS-S2",
+    "slug": "dahua-ipc-hdbw3541r-zs-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "5MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 126,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541R-ZAS-S2",
+    "slug": "dahua-ipc-hdbw3541r-zas-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "5MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 127,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541E-S-S2",
+    "slug": "dahua-ipc-hdbw3541e-s-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 128,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541E-AS-S2",
+    "slug": "dahua-ipc-hdbw3541e-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 129,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541T-ZS-S2",
+    "slug": "dahua-ipc-hfw3541t-zs-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 130,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541T-ZAS-S2",
+    "slug": "dahua-ipc-hfw3541t-zas-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 131,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541E-S-S2",
+    "slug": "dahua-ipc-hfw3541e-s-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "5 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 132,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541E-AS-S2",
+    "slug": "dahua-ipc-hfw3541e-as-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "5 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 133,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541E-S",
+    "slug": "dahua-ipc-hdbw3541e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 134,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541E-AS",
+    "slug": "dahua-ipc-hdbw3541e-as",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 135,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541R-ZS",
+    "slug": "dahua-ipc-hdbw3541r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "5MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 136,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3541TM-AS",
+    "slug": "dahua-ipc-hdw3541tm-as",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Fixed focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Fixed focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 137,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541T-ZAS",
+    "slug": "dahua-ipc-hfw3541t-zas",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 138,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541E-SA",
+    "slug": "dahua-ipc-hfw3541e-sa",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "5MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 139,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3541E-AS",
+    "slug": "dahua-ipc-hfw3541e-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "5MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 140,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3541F-AS-M",
+    "slug": "dahua-ipc-hdbw3541f-as-m",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 141,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441F-AS-S2",
+    "slug": "dahua-ipc-hdbw3441f-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 142,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3441T-ZS-S2",
+    "slug": "dahua-ipc-hdw3441t-zs-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 143,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3441EM-S-S2",
+    "slug": "dahua-ipc-hdw3441em-s-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4 MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4 MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 144,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441R-ZS-S2",
+    "slug": "dahua-ipc-hdbw3441r-zs-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 145,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441R-ZAS-S2",
+    "slug": "dahua-ipc-hdbw3441r-zas-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 146,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441E-S-S2",
+    "slug": "dahua-ipc-hdbw3441e-s-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 147,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441E-AS-S2",
+    "slug": "dahua-ipc-hdbw3441e-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 148,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441T-ZS-S2",
+    "slug": "dahua-ipc-hfw3441t-zs-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 149,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441T-ZAS-S2",
+    "slug": "dahua-ipc-hfw3441t-zas-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 150,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441E-S-S2",
+    "slug": "dahua-ipc-hfw3441e-s-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "4 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 151,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441E-AS-S2",
+    "slug": "dahua-ipc-hfw3441e-as-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "4 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 152,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441T-AS-P",
+    "slug": "dahua-ipc-hfw3441t-as-p",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Wide Angle Fixed Bullet WizSense Network Camera",
+    "description": "4MP Wide Angle Fixed Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 153,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441R-AS-P",
+    "slug": "dahua-ipc-hdbw3441r-as-p",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP Wide Angle Fixed Dome WizSense Network Camera",
+    "description": "4MP Wide Angle Fixed Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 154,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441E-S",
+    "slug": "dahua-ipc-hdbw3441e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 155,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441E-AS",
+    "slug": "dahua-ipc-hdbw3441e-as",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 156,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441R-ZS",
+    "slug": "dahua-ipc-hdbw3441r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 157,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441R-ZAS",
+    "slug": "dahua-ipc-hdbw3441r-zas",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 158,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3441TM-AS",
+    "slug": "dahua-ipc-hdw3441tm-as",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Fixed focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Fixed focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 159,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441T-ZS",
+    "slug": "dahua-ipc-hfw3441t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 160,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3441T-ZAS",
+    "slug": "dahua-ipc-hdw3441t-zas",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 161,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441E-SA",
+    "slug": "dahua-ipc-hfw3441e-sa",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "4MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 162,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441E-AS",
+    "slug": "dahua-ipc-hfw3441e-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "4MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 163,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441M-AS-I2",
+    "slug": "dahua-ipc-hfw3441m-as-i2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "4MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 164,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3441F-AS-M",
+    "slug": "dahua-ipc-hdbw3441f-as-m",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 165,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241F-AS-S2",
+    "slug": "dahua-ipc-hdbw3241f-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 166,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3241T-ZS-S2",
+    "slug": "dahua-ipc-hdw3241t-zs-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 167,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3241EM-S-S2",
+    "slug": "dahua-ipc-hdw3241em-s-s2",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 168,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241R-ZS-S2",
+    "slug": "dahua-ipc-hdbw3241r-zs-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "2MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 169,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241R-ZAS-S2",
+    "slug": "dahua-ipc-hdbw3241r-zas-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "2MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 170,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241E-S-S2",
+    "slug": "dahua-ipc-hdbw3241e-s-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 171,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241E-AS-S2",
+    "slug": "dahua-ipc-hdbw3241e-as-s2",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 172,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241T-ZS-S2",
+    "slug": "dahua-ipc-hfw3241t-zs-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 173,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241T-ZAS-S2",
+    "slug": "dahua-ipc-hfw3241t-zas-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 174,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241E-S-S2",
+    "slug": "dahua-ipc-hfw3241e-s-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "2 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 175,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241E-AS-S2",
+    "slug": "dahua-ipc-hfw3241e-as-s2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2 MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "2 MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 176,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241DF-AS-4G",
+    "slug": "dahua-ipc-hfw3241df-as-4g",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed focal Bullet WizSense 4G Network Camera",
+    "description": "2MP IR Fixed focal Bullet WizSense 4G Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 177,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241E-S",
+    "slug": "dahua-ipc-hdbw3241e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 178,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241E-AS",
+    "slug": "dahua-ipc-hdbw3241e-as",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 179,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241R-ZS",
+    "slug": "dahua-ipc-hdbw3241r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "2MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 180,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3241TM-AS",
+    "slug": "dahua-ipc-hdw3241tm-as",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Fixed focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Fixed focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 181,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241T-ZS",
+    "slug": "dahua-ipc-hfw3241t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 182,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW3241T-ZAS",
+    "slug": "dahua-ipc-hdw3241t-zas",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 183,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241E-SA",
+    "slug": "dahua-ipc-hfw3241e-sa",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "2MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 184,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241E-AS",
+    "slug": "dahua-ipc-hfw3241e-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "2MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 185,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3241M-AS-I2",
+    "slug": "dahua-ipc-hfw3241m-as-i2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed focal Bullet WizSense Network Camera",
+    "description": "2MP IR Fixed focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 186,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW3241F-AS-M",
+    "slug": "dahua-ipc-hdbw3241f-as-m",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 187,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2849S-S-IL",
+    "slug": "dahua-ipc-hfw2849s-s-il",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "8MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera",
+    "description": "8MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 188,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2549S-S-IL",
+    "slug": "dahua-ipc-hfw2549s-s-il",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera",
+    "description": "5MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 189,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2449S-S-IL",
+    "slug": "dahua-ipc-hfw2449s-s-il",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 190,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2249S-S-IL",
+    "slug": "dahua-ipc-hfw2249s-s-il",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera",
+    "description": "2MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 191,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2849TM-S-IL",
+    "slug": "dahua-ipc-hdw2849tm-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "8MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 192,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2549TM-S-IL",
+    "slug": "dahua-ipc-hdw2549tm-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 193,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2849T-S-IL",
+    "slug": "dahua-ipc-hdw2849t-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "8MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "8MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 194,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2549T-S-IL",
+    "slug": "dahua-ipc-hdw2549t-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 195,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2449TM-S-IL",
+    "slug": "dahua-ipc-hdw2449tm-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 196,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2249TM-S-IL",
+    "slug": "dahua-ipc-hdw2249tm-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 197,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2449T-S-IL",
+    "slug": "dahua-ipc-hdw2449t-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 198,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2249T-S-IL",
+    "slug": "dahua-ipc-hdw2249t-s-il",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP Smart Dual Light Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 199,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2241T-ZS",
+    "slug": "dahua-ipc-hfw2241t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 200,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2241T-ZAS",
+    "slug": "dahua-ipc-hfw2241t-zas",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 201,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2241T-AS",
+    "slug": "dahua-ipc-hfw2241t-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 202,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2241E-S",
+    "slug": "dahua-ipc-hdbw2241e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 203,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2241T-ZS",
+    "slug": "dahua-ipc-hdw2241t-zs",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 204,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2241R-ZS",
+    "slug": "dahua-ipc-hdbw2241r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "2MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 205,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2241TM-S",
+    "slug": "dahua-ipc-hdw2241tm-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 206,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2241T-S",
+    "slug": "dahua-ipc-hdw2241t-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 207,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2241S-S",
+    "slug": "dahua-ipc-hfw2241s-s",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "2MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 208,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2441T-ZS",
+    "slug": "dahua-ipc-hfw2441t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 209,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2441T-ZAS",
+    "slug": "dahua-ipc-hfw2441t-zas",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 210,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2441T-AS",
+    "slug": "dahua-ipc-hfw2441t-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 211,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2441E-S",
+    "slug": "dahua-ipc-hdbw2441e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 212,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2441T-ZS",
+    "slug": "dahua-ipc-hdw2441t-zs",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 213,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2441R-ZS",
+    "slug": "dahua-ipc-hdbw2441r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 214,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2441R-ZAS",
+    "slug": "dahua-ipc-hdbw2441r-zas",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "4MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "4MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 215,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2441TM-S",
+    "slug": "dahua-ipc-hdw2441tm-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 216,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2441T-S",
+    "slug": "dahua-ipc-hdw2441t-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "4MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 217,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2541T-AS",
+    "slug": "dahua-ipc-hfw2541t-as",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 218,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2541R-ZS",
+    "slug": "dahua-ipc-hdbw2541r-zs",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Vari-focal Dome WizSense Network Camera",
+    "description": "5MP IR Vari-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 219,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2541T-ZS",
+    "slug": "dahua-ipc-hdw2541t-zs",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Vari-focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Vari-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 220,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2541T-ZS",
+    "slug": "dahua-ipc-hfw2541t-zs",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 221,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2541T-ZAS",
+    "slug": "dahua-ipc-hfw2541t-zas",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Vari-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Vari-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 222,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDBW2541E-S",
+    "slug": "dahua-ipc-hdbw2541e-s",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP IR Fixed-focal Dome WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Dome WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 223,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2541TM-S",
+    "slug": "dahua-ipc-hdw2541tm-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 224,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HDW2541T-S",
+    "slug": "dahua-ipc-hdw2541t-s",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP IR Fixed-focal Eyeball WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Eyeball WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 225,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2541E-S",
+    "slug": "dahua-ipc-hfw2541e-s",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP IR Fixed-focal Bullet WizSense Network Camera",
+    "description": "5MP IR Fixed-focal Bullet WizSense Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 226,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441DG-AS-4G-LA-B",
+    "slug": "dahua-ipc-hfw3441dg-as-4g-la-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed-focal Bullet WizSense 4G Network Camera",
+    "description": "4MP IR Fixed-focal Bullet WizSense 4G Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 227,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW3441DG-AS-4G-EAU-B",
+    "slug": "dahua-ipc-hfw3441dg-as-4g-eau-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed-focal Bullet WizSense 4G Network Camera",
+    "description": "4MP IR Fixed-focal Bullet WizSense 4G Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 228,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2431DG-4G-SP-LA-B",
+    "slug": "dahua-ipc-hfw2431dg-4g-sp-la-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed-focal Bullet 4G Solar Power Network Camera",
+    "description": "4MP IR Fixed-focal Bullet 4G Solar Power Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 229,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW2431DG-4G-SP-EAU-B",
+    "slug": "dahua-ipc-hfw2431dg-4g-sp-eau-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "4MP IR Fixed-focal Bullet 4G Solar Power Network Camera",
+    "description": "4MP IR Fixed-focal Bullet 4G Solar Power Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 230,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-HFW4230M-4G-AS-I2",
+    "slug": "dahua-ipc-hfw4230m-4g-as-i2",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP 4G IR Bullet Network Camera",
+    "description": "2MP 4G IR Bullet Network Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 231,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-D3A51-Z",
+    "slug": "dahua-hac-d3a51-z",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP HDCVI IR Dome Camera",
+    "description": "5MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 232,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-T3A51-Z",
+    "slug": "dahua-hac-t3a51-z",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI IR Eyeball Camera",
+    "description": "5MP HDCVI IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 233,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-B3A51-Z",
+    "slug": "dahua-hac-b3a51-z",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI IR Bullet Camera",
+    "description": "5MP HDCVI IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 234,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-B1A51",
+    "slug": "dahua-hac-b1a51",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI Fixed IR Bullet Camera",
+    "description": "5MP HDCVI Fixed IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 235,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-B2A51",
+    "slug": "dahua-hac-b2a51",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI Fixed IR Bullet Camera",
+    "description": "5MP HDCVI Fixed IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 236,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-D1A51",
+    "slug": "dahua-hac-d1a51",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP HDCVI Fixed IR Dome Camera",
+    "description": "5MP HDCVI Fixed IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 237,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-T1A51",
+    "slug": "dahua-hac-t1a51",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI Fixed IR Eyeball Camera",
+    "description": "5MP HDCVI Fixed IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 238,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-T2A51",
+    "slug": "dahua-hac-t2a51",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI Fixed IR Eyeball Camera",
+    "description": "5MP HDCVI Fixed IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 239,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-B4A51-VF",
+    "slug": "dahua-hac-b4a51-vf",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI IR Bullet Camera",
+    "description": "5MP HDCVI IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 240,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-T3A51-VF",
+    "slug": "dahua-hac-t3a51-vf",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI IR Eyeball Camera",
+    "description": "5MP HDCVI IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 241,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-D3A51-VF",
+    "slug": "dahua-hac-d3a51-vf",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "5MP HDCVI IR Dome Camera",
+    "description": "5MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 242,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-B3A21-Z",
+    "slug": "dahua-hac-b3a21-z",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI IR Bullet Camera",
+    "description": "2MP HDCVI IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 243,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-D3A21-Z",
+    "slug": "dahua-hac-d3a21-z",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP HDCVI IR Dome Camera",
+    "description": "2MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 244,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-T3A21-Z",
+    "slug": "dahua-hac-t3a21-z",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI IR Eyeball Camera",
+    "description": "2MP HDCVI IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 245,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-B4A21-VF",
+    "slug": "dahua-hac-b4a21-vf",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI IR Bullet Camera",
+    "description": "2MP HDCVI IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 246,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-D3A21-VF",
+    "slug": "dahua-hac-d3a21-vf",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP HDCVI IR Dome Camera",
+    "description": "2MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 247,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-T3A21-VF",
+    "slug": "dahua-hac-t3a21-vf",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI IR Eyeball Camera",
+    "description": "2MP HDCVI IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 248,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-B2A21",
+    "slug": "dahua-hac-b2a21",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI Fixed-focal Bullet Camera",
+    "description": "2MP HDCVI Fixed-focal Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 249,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-B1A21",
+    "slug": "dahua-hac-b1a21",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI Fixed-focal Bullet Camera",
+    "description": "2MP HDCVI Fixed-focal Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 250,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-D1A21",
+    "slug": "dahua-hac-d1a21",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP HDCVI IR Dome Camera",
+    "description": "2MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 251,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-T2A21",
+    "slug": "dahua-hac-t2a21",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI Fixed-focal Eyeball Camera",
+    "description": "2MP HDCVI Fixed-focal Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 252,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-T1A21",
+    "slug": "dahua-hac-t1a21",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI Fixed-focal Eyeball Camera",
+    "description": "2MP HDCVI Fixed-focal Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 253,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-ME1500E",
+    "slug": "dahua-hac-me1500e",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI PIR Eyeball Camera",
+    "description": "5MP HDCVI PIR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 254,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-ME1500B",
+    "slug": "dahua-hac-me1500b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI PIR Bullet Camera",
+    "description": "5MP HDCVI PIR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 255,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-ME1200E",
+    "slug": "dahua-hac-me1200e",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI PIR Eyeball Camera",
+    "description": "2MP HDCVI PIR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 256,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-ME1200B",
+    "slug": "dahua-hac-me1200b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI PIR Bullet Camera",
+    "description": "2MP HDCVI PIR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 257,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-PFW3601-A180-AC24",
+    "slug": "dahua-hac-pfw3601-a180-ac24",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "3X2MP Multi-Sensor Panoramic HDCVI IR-Bullet Camera",
+    "description": "3X2MP Multi-Sensor Panoramic HDCVI IR-Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 258,
+    "specifications": {
+      "Type": "Multi-Sensor"
+    }
+  },
+  {
+    "name": "HAC-PFW3601-A180",
+    "slug": "dahua-hac-pfw3601-a180",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "3X2MP Multi-Sensor Panoramic HDCVI IR-Bullet Camera",
+    "description": "3X2MP Multi-Sensor Panoramic HDCVI IR-Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 259,
+    "specifications": {
+      "Type": "Multi-Sensor"
+    }
+  },
+  {
+    "name": "HAC-EBW3802",
+    "slug": "dahua-hac-ebw3802",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "8MP HDCVI IR-Fisheye Camera",
+    "description": "8MP HDCVI IR-Fisheye Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 260,
+    "specifications": {
+      "Resolution": "8MP"
+    }
+  },
+  {
+    "name": "HAC-EW2501",
+    "slug": "dahua-hac-ew2501",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "5MP HDCVI IR-Fisheye Camera",
+    "description": "5MP HDCVI IR-Fisheye Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 261,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HDW2241M-E2",
+    "slug": "dahua-hac-hdw2241m-e2",
+    "category": "Multi-Sensor Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-multi.svg",
+    "short_description": "2MP Starlight HDCVI IR Dual-lens Camera",
+    "description": "2MP Starlight HDCVI IR Dual-lens Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 262,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1500EM-A-POC",
+    "slug": "dahua-hac-hdw1500em-a-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI POC IR Eyeball Camera",
+    "description": "5MP HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 263,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1500EM-POC",
+    "slug": "dahua-hac-hdw1500em-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI POC IR Eyeball Camera",
+    "description": "5MP HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 264,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1500T-A-POC",
+    "slug": "dahua-hac-hfw1500t-a-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI POC IR Bullet Camera",
+    "description": "5MP HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 265,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1500T-POC",
+    "slug": "dahua-hac-hfw1500t-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI POC IR Bullet Camera",
+    "description": "5MP HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 266,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1500S-POC",
+    "slug": "dahua-hac-hfw1500s-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI POC IR Bullet Camera",
+    "description": "5MP HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 267,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1500T-Z-A-POC",
+    "slug": "dahua-hac-hdw1500t-z-a-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI POC IR Eyeball Camera",
+    "description": "5MP HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 268,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1500T-Z-POC",
+    "slug": "dahua-hac-hdw1500t-z-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "5MP HDCVI POC IR Eyeball Camera",
+    "description": "5MP HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 269,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1500R-Z-IRE6-POC",
+    "slug": "dahua-hac-hfw1500r-z-ire6-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "5MP HDCVI POC IR Bullet Camera",
+    "description": "5MP HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 270,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-HDW2241T-Z-POC",
+    "slug": "dahua-hac-hdw2241t-z-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Eyeball Camera",
+    "description": "2MP Starlight HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 271,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDBW2241R-Z-POC",
+    "slug": "dahua-hac-hdbw2241r-z-poc",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Dome Camera",
+    "description": "2MP Starlight HDCVI POC IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 272,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW2241T-Z-POC",
+    "slug": "dahua-hac-hfw2241t-z-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Bullet Camera",
+    "description": "2MP Starlight HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 273,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1230R-Z-IRE6-POC",
+    "slug": "dahua-hac-hfw1230r-z-ire6-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Bullet Camera",
+    "description": "2MP Starlight HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 274,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDBW1230R-Z-POC",
+    "slug": "dahua-hac-hdbw1230r-z-poc",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Dome Camera",
+    "description": "2MP Starlight HDCVI POC IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 275,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1230T-Z-A-POC",
+    "slug": "dahua-hac-hdw1230t-z-a-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Eyeball Camera",
+    "description": "2MP Starlight HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 276,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1230S-POC",
+    "slug": "dahua-hac-hfw1230s-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Bullet Camera",
+    "description": "2MP Starlight HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 277,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1230T-POC",
+    "slug": "dahua-hac-hfw1230t-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Bullet Camera",
+    "description": "2MP Starlight HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 278,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1230T-A-POC",
+    "slug": "dahua-hac-hfw1230t-a-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Bullet Camera",
+    "description": "2MP Starlight HDCVI POC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 279,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1230EM-A-POC",
+    "slug": "dahua-hac-hdw1230em-a-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP Starlight HDCVI POC IR Eyeball Camera",
+    "description": "2MP Starlight HDCVI POC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 280,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1200S-POC",
+    "slug": "dahua-hac-hfw1200s-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI PoC IR Bullet Camera",
+    "description": "2MP HDCVI PoC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 281,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1200T-POC",
+    "slug": "dahua-hac-hfw1200t-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI PoC IR Bullet Camera",
+    "description": "2MP HDCVI PoC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 282,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HFW1200T-A-POC",
+    "slug": "dahua-hac-hfw1200t-a-poc",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI PoC IR Bullet Camera",
+    "description": "2MP HDCVI PoC IR Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 283,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1200EM-POC",
+    "slug": "dahua-hac-hdw1200em-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI PoC IR Eyeball Camera",
+    "description": "2MP HDCVI PoC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 284,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW1200EM-A-POC",
+    "slug": "dahua-hac-hdw1200em-a-poc",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI PoC IR Eyeball Camera",
+    "description": "2MP HDCVI PoC IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 285,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW3200L",
+    "slug": "dahua-hac-hdw3200l",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI IR Eyeball Camera",
+    "description": "2MP HDCVI IR Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 286,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDW3200G",
+    "slug": "dahua-hac-hdw3200g",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI IR Miniature Eyeball Camera",
+    "description": "2MP HDCVI IR Miniature Eyeball Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 287,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HDBW3200F",
+    "slug": "dahua-hac-hdbw3200f",
+    "category": "Dome Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-dome.svg",
+    "short_description": "2MP HDCVI IR Dome Camera",
+    "description": "2MP HDCVI IR Dome Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 288,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HUM1220G-B-P",
+    "slug": "dahua-hac-hum1220g-b-p",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI Bullet Camera",
+    "description": "2MP HDCVI Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 289,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HUM1220G-B",
+    "slug": "dahua-hac-hum1220g-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI Bullet Camera",
+    "description": "2MP HDCVI Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 290,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HUM1220G",
+    "slug": "dahua-hac-hum1220g",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP HDCVI Bullet Camera",
+    "description": "2MP HDCVI Bullet Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 291,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "IPC-PT1439H-PV",
+    "slug": "dahua-ipc-pt1439h-pv",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "4MP Smart Dual Light Active Deterrence Network PT Camera",
+    "description": "4MP Smart Dual Light Active Deterrence Network PT Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 292,
+    "specifications": {
+      "Resolution": "4MP"
+    }
+  },
+  {
+    "name": "IPC-PT1239H-PV",
+    "slug": "dahua-ipc-pt1239h-pv",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "2MP Smart Dual Light Active Deterrence Network PT Camera",
+    "description": "2MP Smart Dual Light Active Deterrence Network PT Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 293,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "SD2A300NB-GNY-A-PV",
+    "slug": "dahua-sd2a300nb-gny-a-pv",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "3MP  Smart Dual Light NETWORK PT CAMERA",
+    "description": "3MP  Smart Dual Light NETWORK PT CAMERA. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 294,
+    "specifications": {
+      "Resolution": "3MP"
+    }
+  },
+  {
+    "name": "SD2A500NB-GNY-A-PV",
+    "slug": "dahua-sd2a500nb-gny-a-pv",
+    "category": "PTZ Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-ptz.svg",
+    "short_description": "5MP Smart Dual Light Network PT Camera",
+    "description": "5MP Smart Dual Light Network PT Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 295,
+    "specifications": {
+      "Resolution": "5MP"
+    }
+  },
+  {
+    "name": "HAC-ME1200A",
+    "slug": "dahua-hac-me1200a",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "2MP HDCVI PIR Cube Camera",
+    "description": "2MP HDCVI PIR Cube Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 296,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-ME2802B",
+    "slug": "dahua-hac-me2802b",
+    "category": "Turret Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-turret.svg",
+    "short_description": "4K HDCVI MotionEye Camera",
+    "description": "4K HDCVI MotionEye Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 297,
+    "specifications": {
+      "Resolution": "4K"
+    }
+  },
+  {
+    "name": "HAC-HUM3201B-P",
+    "slug": "dahua-hac-hum3201b-p",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI Pinhole Camera",
+    "description": "2MP Starlight HDCVI Pinhole Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 298,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  },
+  {
+    "name": "HAC-HUM3201B-B",
+    "slug": "dahua-hac-hum3201b-b",
+    "category": "Bullet Camera",
+    "brand": "Dahua",
+    "image_path": "/media/products/suppliers/dahua-form-bullet.svg",
+    "short_description": "2MP Starlight HDCVI Miniature Camera",
+    "description": "2MP Starlight HDCVI Miniature Camera. Listed in the Dahua Philippines camera catalog. The supply price is confirmed in the quotation.",
+    "approx_price": 0,
+    "sort_order": 299,
+    "specifications": {
+      "Resolution": "2MP"
+    }
+  }
+]

@@ -13,6 +13,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
     'starts_at',
     'ends_at',
     'notes',
+    'cancelled_at',
+    'cancelled_by',
 ])]
 class ScheduleEvent extends Model
 {
@@ -27,6 +29,7 @@ class ScheduleEvent extends Model
         return [
             'starts_at' => 'datetime',
             'ends_at' => 'datetime',
+            'cancelled_at' => 'datetime',
         ];
     }
 

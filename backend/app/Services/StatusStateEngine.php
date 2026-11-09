@@ -22,7 +22,7 @@ class StatusStateEngine
         QuoteRequest::ACTIVE => [QuoteRequest::PENDING, QuoteRequest::QUOTED, QuoteRequest::CANCELLED],
         QuoteRequest::QUOTED => [QuoteRequest::ACTIVE, QuoteRequest::AWAITING_PAYMENT, QuoteRequest::CANCELLED],
         QuoteRequest::AWAITING_PAYMENT => [QuoteRequest::QUOTED, QuoteRequest::SCHEDULED, QuoteRequest::CANCELLED],
-        QuoteRequest::SCHEDULED => [QuoteRequest::IN_PROGRESS, QuoteRequest::CANCELLED],
+        QuoteRequest::SCHEDULED => [QuoteRequest::AWAITING_PAYMENT, QuoteRequest::IN_PROGRESS, QuoteRequest::CANCELLED],
         QuoteRequest::IN_PROGRESS => [QuoteRequest::COMPLETED, QuoteRequest::CANCELLED],
         QuoteRequest::COMPLETED => [],
         QuoteRequest::CANCELLED => [],
@@ -68,9 +68,11 @@ class StatusStateEngine
     {
         if ($to === QuoteRequest::QUOTED) {
             $missing = $quote->items()->whereNull('final_unit_price')->exists();
-            if ($missing || $quote->quoted_total === null) {
+            $hasBillable = $quote->items()->exists()
+                || $quote->charges()->where('finalized', true)->whereNotNull('unit_price')->exists();
+            if ($missing || ! $hasBillable || $quote->quoted_total === null || Money::compare((string) $quote->quoted_total, '0') <= 0) {
                 throw ValidationException::withMessages([
-                    'status' => 'Set a final price on every line before marking the request as quoted.',
+                    'status' => 'Add a finalized camera, labor, or material price before marking the request as quoted.',
                 ]);
             }
         }
@@ -91,6 +93,29 @@ class StatusStateEngine
             if ($quote->installation_start_date === null || $quote->installation_end_date === null) {
                 throw ValidationException::withMessages([
                     'installation_start_date' => 'Installation needs a start date and a promised completion date.',
+                ]);
+            }
+
+            if ($quote->installation_start_date->toDateString() < now()->toDateString()) {
+                throw ValidationException::withMessages([
+                    'installation_start_date' => 'Choose an installation date that has not already passed.',
+                ]);
+            }
+        }
+
+        if ($to === QuoteRequest::COMPLETED) {
+            $quote->loadMissing('payments');
+            $snapshot = $quote->paymentSnapshot();
+            $balance = $snapshot['balance_remaining'] ?? null;
+            if (
+                $quote->quoted_total === null
+                || Money::compare((string) $quote->quoted_total, '0') <= 0
+                || $snapshot['payment_status'] !== 'paid'
+                || $balance === null
+                || Money::compare($balance, '0') > 0
+            ) {
+                throw ValidationException::withMessages([
+                    'status' => 'Record the full payment before completing this job. Remaining balance: PHP '.($balance ?? $quote->quoted_total ?? '0.00').'. The warranty starts only after the job is completed and paid.',
                 ]);
             }
         }

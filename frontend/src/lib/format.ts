@@ -1,3 +1,25 @@
+export function priceRange(min: number | string | null | undefined, max: number | string | null | undefined, digits = 0): string {
+  const from = typeof min === 'number' ? min : Number(min)
+  const to = typeof max === 'number' ? max : Number(max)
+  const hasFrom = !Number.isNaN(from) && from > 0
+  const hasTo = !Number.isNaN(to) && to > 0
+
+  if (hasFrom && hasTo && to > from) {
+    return `${peso(from, digits)} – ${peso(to, digits)}`
+  }
+  if (hasFrom && hasTo) {
+    return peso(from, digits)
+  }
+  if (hasFrom) {
+    return `From ${peso(from, digits)}`
+  }
+  if (hasTo) {
+    return `Up to ${peso(to, digits)}`
+  }
+
+  return '₱ — – ₱ —'
+}
+
 export function peso(value: number | string | null | undefined, digits = 0): string {
   if (value === null || value === undefined || value === '') {
     return '—'

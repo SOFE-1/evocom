@@ -9,7 +9,7 @@ use App\Models\QuoteRequest;
 use App\Models\ScheduleEvent;
 use App\Models\Technician;
 use App\Services\QuoteDetailLoader;
-use Illuminate\Http\JsonResponse;
+use App\Services\StatusStateEngine;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Validation\ValidationException;
@@ -25,6 +25,7 @@ class ScheduleController extends Controller
 
         $events = ScheduleEvent::query()
             ->with(['technician', 'quoteRequest'])
+            ->whereNull('cancelled_at')
             ->when(isset($data['from']), fn ($query) => $query->where('starts_at', '>=', $data['from']))
             ->when(isset($data['to']), fn ($query) => $query->where('starts_at', '<=', $data['to']))
             ->orderBy('starts_at')
@@ -51,6 +52,25 @@ class ScheduleController extends Controller
             ]);
         }
 
+        if (now()->parse($data['starts_at'])->lt(now())) {
+            throw ValidationException::withMessages([
+                'starts_at' => 'Choose a visit time that has not already passed.',
+            ]);
+        }
+
+        $overlap = ScheduleEvent::query()
+            ->where('technician_id', $technician->id)
+            ->whereNull('cancelled_at')
+            ->where('starts_at', '<', $data['ends_at'])
+            ->where('ends_at', '>', $data['starts_at'])
+            ->exists();
+
+        if ($overlap) {
+            throw ValidationException::withMessages([
+                'technician_id' => $technician->name.' already has a visit in that time. Choose another technician or another time.',
+            ]);
+        }
+
         $quote->schedules()->create([
             'technician_id' => $technician->id,
             'event_type' => $data['event_type'],
@@ -65,10 +85,39 @@ class ScheduleController extends Controller
         return new QuoteDetailResource($details->load($quote));
     }
 
-    public function destroy(ScheduleEvent $schedule): JsonResponse
-    {
-        $schedule->delete();
+    public function destroy(
+        Request $request,
+        ScheduleEvent $schedule,
+        StatusStateEngine $statuses,
+        QuoteDetailLoader $details,
+    ): QuoteDetailResource {
+        if ($schedule->cancelled_at !== null) {
+            throw ValidationException::withMessages([
+                'schedule' => 'This visit is already cancelled.',
+            ]);
+        }
 
-        return response()->json(['message' => 'Schedule removed.']);
+        $schedule->cancelled_at = now();
+        $schedule->cancelled_by = $request->user()?->id;
+        $schedule->save();
+
+        $quote = $schedule->quoteRequest()->firstOrFail();
+        $active = $quote->schedules()->whereNull('cancelled_at')->orderByDesc('starts_at')->get();
+        $quote->assigned_technician_id = $active->first()?->technician_id;
+
+        $activeInstallation = $active->contains(
+            fn (ScheduleEvent $event) => $event->event_type === ScheduleEvent::INSTALLATION,
+        );
+
+        if (! $activeInstallation && $quote->status === QuoteRequest::SCHEDULED) {
+            $quote->installation_start_date = null;
+            $quote->installation_end_date = null;
+            $quote->save();
+            $statuses->transition($quote, QuoteRequest::AWAITING_PAYMENT, $request->user());
+        } else {
+            $quote->save();
+        }
+
+        return new QuoteDetailResource($details->load($quote->refresh()));
     }
 }

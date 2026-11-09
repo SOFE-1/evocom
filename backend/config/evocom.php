@@ -13,4 +13,13 @@ return [
     */
     'warranty_years' => 1,
 
+    'quote_valid_days' => 15,
+
+    'company' => [
+        'name' => 'Evocom Information Technology Services',
+        'phone' => '0920 257 4663',
+        'email' => 'evocom_its@hotmail.com',
+        'address' => 'B18 L20 Ph 1, Costa Homes 5, Rodriguez, Rizal, Philippines',
+    ],
+
 ];

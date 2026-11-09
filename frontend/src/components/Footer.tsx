@@ -1,31 +1,35 @@
 import { Link } from 'react-router-dom'
 import { company } from '../config'
+import { Icon } from './Icon'
 import { Logo } from './Logo'
 
 const products = [
-  ['Dome Cameras', 'Dome'],
-  ['Bullet Cameras', 'Bullet'],
-  ['PTZ Cameras', 'PTZ'],
-  ['Turret Cameras', 'Turret'],
-  ['Multi-Sensor', 'Multi-Sensor'],
+  ['Bullet Cameras', 'Bullet Camera'],
+  ['PTZ Cameras', 'PTZ Camera'],
+  ['Dome Cameras', 'Dome Camera'],
+  ['Turret Cameras', 'Turret Camera'],
+  ['Multi-Sensor', 'Multi-Sensor Camera'],
 ] as const
+
+const headingClass = 'font-mono text-[11px] font-medium tracking-[0.16em] text-slate-400 uppercase'
+const linkClass = 'transition hover:text-white'
 
 export function Footer() {
   return (
     <footer className="bg-night text-slate-300">
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="shell grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr_1.2fr]">
         <div>
           <Logo tone="light" />
-          <p className="mt-4 max-w-xs text-sm leading-6 text-slate-400">
-            Professional CCTV installation for homes and businesses. Licensed, insured, and trusted since {company.since}.
+          <p className="mt-5 max-w-xs text-sm leading-6 text-slate-400">
+            CCTV installation for homes and businesses in {company.city}.
           </p>
         </div>
         <div>
-          <p className="text-xs font-semibold tracking-[0.16em] text-white">PRODUCTS</p>
-          <ul className="mt-4 space-y-2 text-sm">
+          <p className={headingClass}>Products</p>
+          <ul className="mt-4 space-y-2.5 text-sm">
             {products.map(([label, type]) => (
               <li key={type}>
-                <Link to={`/products?type=${encodeURIComponent(type)}`} className="hover:text-white">
+                <Link to={`/products?type=${encodeURIComponent(type)}`} className={linkClass}>
                   {label}
                 </Link>
               </li>
@@ -33,30 +37,46 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="text-xs font-semibold tracking-[0.16em] text-white">COMPANY</p>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li><Link to="/about" className="hover:text-white">About Us</Link></li>
-            <li><Link to="/services" className="hover:text-white">Services</Link></li>
-            <li><Link to="/products" className="hover:text-white">Products</Link></li>
-            <li><Link to="/contact" className="hover:text-white">Contact Us</Link></li>
+          <p className={headingClass}>Company</p>
+          <ul className="mt-4 space-y-2.5 text-sm">
+            <li><Link to="/about" className={linkClass}>About Us</Link></li>
+            <li><Link to="/about#services" className={linkClass}>Services</Link></li>
+            <li><Link to="/products" className={linkClass}>Products</Link></li>
+            <li><Link to="/request-quote" className={linkClass}>Request a Quote</Link></li>
+            <li><Link to="/contact" className={linkClass}>Contact Us</Link></li>
+            <li><Link to="/track" className={linkClass}>Track a request</Link></li>
           </ul>
         </div>
         <div>
-          <p className="text-xs font-semibold tracking-[0.16em] text-white">CONNECT</p>
-          <ul className="mt-4 space-y-2 text-sm">
+          <p className={headingClass}>Connect</p>
+          <ul className="mt-4 space-y-3 text-sm">
             <li>
-              <a href={`mailto:${company.email}`} className="hover:text-white">{company.email}</a>
+              <a href={company.phoneHref} className={`inline-flex items-center gap-2.5 ${linkClass}`}>
+                <Icon name="phone" className="h-4 w-4 text-blue-300" />
+                {company.phoneDisplay}
+              </a>
             </li>
             <li>
-              <a href={company.phoneHref} className="hover:text-white">{company.phoneDisplay}</a>
+              <a href={`mailto:${company.email}`} className={`inline-flex items-center gap-2.5 break-all ${linkClass}`}>
+                <Icon name="mail" className="h-4 w-4 text-blue-300" />
+                {company.email}
+              </a>
+            </li>
+            <li className="flex items-start gap-2.5">
+              <Icon name="pin" className="mt-0.5 h-4 w-4 text-blue-300" />
+              <span>
+                {company.addressLines.map((line) => (
+                  <span key={line} className="block">{line}</span>
+                ))}
+              </span>
             </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-4 text-xs text-slate-500">
+        <div className="shell flex flex-wrap items-center justify-between gap-3 py-4 text-xs text-slate-400">
           <p>© {new Date().getFullYear()} {company.legalName}. All rights reserved.</p>
-          <Link to="/admin/login" className="hover:text-white">Admin</Link>
+          <Link to="/admin/login" className={linkClass}>Admin</Link>
         </div>
       </div>
     </footer>

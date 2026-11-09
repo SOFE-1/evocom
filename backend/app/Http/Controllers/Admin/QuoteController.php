@@ -6,14 +6,16 @@ use App\Exceptions\InvalidStatusTransition;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\QuoteDetailResource;
 use App\Http\Resources\QuoteSummaryResource;
+use App\Models\QuoteCharge;
 use App\Models\QuoteItem;
 use App\Models\QuoteRequest;
+use App\Support\QuotationDocument;
 use App\Services\QuoteDetailLoader;
 use App\Services\StatusStateEngine;
 use App\Support\Money;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
@@ -30,7 +32,9 @@ class QuoteController extends Controller
         $status = $request->query('status');
 
         $quotes = QuoteRequest::query()
-            ->withCount('items')
+            ->withSum('items as items_count', 'quantity')
+            ->withCount('payments')
+            ->withSum('payments as amount_paid_sum', 'amount')
             ->when(is_string($status) && $status !== '', fn ($query) => $query->where('status', $status))
             ->latest()
             ->get();
@@ -65,7 +69,7 @@ class QuoteController extends Controller
                 QuoteRequest::COMPLETED,
                 QuoteRequest::CANCELLED,
             ])],
-            'installation_start_date' => ['nullable', 'date'],
+            'installation_start_date' => ['nullable', 'date', 'after_or_equal:today'],
             'installation_end_date' => ['nullable', 'date', 'after_or_equal:installation_start_date'],
         ]);
 
@@ -97,19 +101,25 @@ class QuoteController extends Controller
         }
 
         $data = $request->validate([
-            'items' => ['required', 'array', 'min:1'],
+            'items' => ['present', 'array'],
             'items.*.id' => ['required', 'integer'],
             'items.*.final_unit_price' => ['required', 'numeric', 'min:0'],
+            'charges' => ['nullable', 'array'],
+            'charges.*.category' => ['required', 'string', Rule::in(QuoteCharge::CATEGORIES)],
+            'charges.*.description' => ['required', 'string', 'max:200'],
+            'charges.*.quantity' => ['required', 'numeric', 'min:0.01'],
+            'charges.*.unit_price' => ['nullable', 'numeric', 'min:0'],
+            'charges.*.finalized' => ['required', 'boolean'],
         ]);
 
         try {
             DB::transaction(function () use ($request, $quote, $data) {
                 $ids = collect($data['items'])->pluck('id');
-                $owned = $quote->items()->whereIn('id', $ids)->count();
+                $owned = $ids->isEmpty() ? 0 : $quote->items()->whereIn('id', $ids)->count();
 
                 if ($owned !== $quote->items()->count() || $owned !== count($data['items'])) {
                     throw ValidationException::withMessages([
-                        'items' => 'Save a final price for every line on this request.',
+                        'items' => 'Save a final price for every camera on this request.',
                     ]);
                 }
 
@@ -122,17 +132,61 @@ class QuoteController extends Controller
                     $total = Money::add($total, Money::mul($item->final_unit_price, $item->quantity));
                 }
 
-                $quote->quoted_total = $total;
-                if ($quote->down_payment_received_at === null) {
-                    $quote->down_payment_amount = Money::percent(
-                        $total,
-                        (int) $quote->down_payment_percent,
-                    );
-                }
-                $quote->save();
+                $quote->charges()->delete();
+                $finalized = false;
+                foreach ($data['charges'] ?? [] as $row) {
+                    $isFinal = (bool) $row['finalized'];
+                    if ($isFinal && ($row['unit_price'] === null || $row['unit_price'] === '')) {
+                        throw ValidationException::withMessages([
+                            'charges' => 'Enter a price for every labor or material line included in the total.',
+                        ]);
+                    }
 
-                if ($quote->status === QuoteRequest::ACTIVE) {
-                    $this->statuses->transition($quote, QuoteRequest::QUOTED, $request->user());
+                    $price = $row['unit_price'] === null || $row['unit_price'] === ''
+                        ? null
+                        : Money::normalize($row['unit_price']);
+                    $quote->charges()->create([
+                        'category' => $row['category'],
+                        'description' => $row['description'],
+                        'quantity' => $row['quantity'],
+                        'unit_price' => $price,
+                        'finalized' => $isFinal,
+                    ]);
+
+                    if ($isFinal && $price !== null) {
+                        $finalized = true;
+                        $total = Money::add($total, Money::mul($price, $row['quantity']));
+                    }
+                }
+
+                $hasCameras = count($data['items']) > 0;
+                if (! $hasCameras && ! $finalized && ($data['charges'] ?? []) === []) {
+                    throw ValidationException::withMessages([
+                        'charges' => 'Add installation labor or materials before saving this quotation. Camera lines are optional.',
+                    ]);
+                }
+
+                if ($quote->status === QuoteRequest::QUOTED && ! $hasCameras && ! $finalized) {
+                    throw ValidationException::withMessages([
+                        'charges' => 'Keep at least one finalized price on a quotation that was already saved.',
+                    ]);
+                }
+
+                if ($hasCameras || $finalized) {
+                    $quote->quoted_total = $total;
+                    if ($quote->down_payment_received_at === null) {
+                        $quote->down_payment_amount = Money::percent(
+                            $total,
+                            (int) $quote->down_payment_percent,
+                        );
+                    }
+                    $quote->save();
+
+                    if ($quote->status === QuoteRequest::ACTIVE) {
+                        $this->statuses->transition($quote, QuoteRequest::QUOTED, $request->user());
+                    }
+                } else {
+                    $quote->save();
                 }
             });
         } catch (InvalidStatusTransition $exception) {
@@ -144,19 +198,20 @@ class QuoteController extends Controller
         return new QuoteDetailResource($this->details->load($quote->refresh()));
     }
 
-    public function recordPayment(Request $request, QuoteRequest $quote): QuoteDetailResource|JsonResponse
+    public function pdf(QuoteRequest $quote): Response
     {
-        if ($quote->status !== QuoteRequest::AWAITING_PAYMENT) {
+        if ($quote->quoted_total === null || in_array($quote->status, [QuoteRequest::PENDING, QuoteRequest::ACTIVE], true)) {
             throw ValidationException::withMessages([
-                'status' => 'The down payment is recorded after the client confirms the quotation.',
+                'quote' => 'Save a finalized quotation before downloading it.',
             ]);
         }
 
-        if ($quote->down_payment_received_at === null) {
-            $quote->down_payment_received_at = now();
-            $quote->save();
-        }
+        $filename = $quote->reference_code.'.pdf';
 
-        return new QuoteDetailResource($this->details->load($quote->refresh()));
+        return response(QuotationDocument::render($quote), 200, [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' => 'attachment; filename="'.$filename.'"',
+        ]);
     }
+
 }

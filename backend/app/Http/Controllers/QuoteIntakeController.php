@@ -11,7 +11,7 @@ class QuoteIntakeController extends Controller
     public function store(StoreQuoteRequest $request, QuoteRequestService $quotes): JsonResponse
     {
         $quote = $quotes->submit(
-            $request->safe()->except(['files']),
+            $request->safe()->except(['files', 'company_website', 'form_loaded_at']),
             $request->layoutFiles(),
         );
 

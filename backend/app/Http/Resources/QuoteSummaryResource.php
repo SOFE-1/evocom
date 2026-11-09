@@ -22,10 +22,11 @@ class QuoteSummaryResource extends JsonResource
             'location' => $this->location,
             'inspection_type' => $this->inspection_type,
             'status' => $this->status,
-            'items_count' => $this->items_count ?? $this->items->count(),
+            'items_count' => (int) ($this->items_count ?? $this->items->sum('quantity')),
             'approx_total' => $this->approx_total,
             'quoted_total' => $this->quoted_total,
             'created_at' => $this->created_at?->toIso8601String(),
+            ...$this->paymentSnapshot(),
         ];
     }
 }

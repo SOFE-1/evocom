@@ -1,27 +1,59 @@
 import type { Product } from './types'
 
 const photos: Record<string, string> = {
-  'evoshield-dome-4k': '/media/cam-lot.jpg',
-  'evoguard-bullet-pro': '/media/cam-white.jpg',
-  'evopan-360-ptz': '/media/cam-color.jpg',
-  'evoslim-mini-dome': '/media/cam-white.jpg',
-  'evowatch-turret-5mp': '/media/cam-lot.jpg',
-  'evoarray-360-multi': '/media/wall.jpg',
+  'evoshield-dome-4k': '/media/products/dome-camera.jpg',
+  'evoguard-bullet-pro': '/media/products/bullet-camera.jpg',
+  'evopan-360-ptz': '/media/products/ptz-camera.jpg',
+  'evoslim-mini-dome': '/media/products/mini-dome.jpg',
+  'evowatch-turret-5mp': '/media/products/turret-camera.jpg',
+  'evoarray-360-multi': '/media/products/multi-sensor.jpg',
 }
 
-const focus: Record<string, string> = {
-  'evoshield-dome-4k': 'center 30%',
-  'evoslim-mini-dome': 'center 70%',
-  'evowatch-turret-5mp': 'left center',
-  'evoarray-360-multi': 'center',
+const categoryPhotos: Record<string, string> = {
+  'Bullet Camera': '/media/products/bullet-camera.jpg',
+  'Dome Camera': '/media/products/dome-camera.jpg',
+  'PTZ Camera': '/media/products/ptz-camera.jpg',
+  'Turret Camera': '/media/products/turret-camera.jpg',
+  'Multi-Sensor Camera': '/media/products/multi-sensor.jpg',
 }
 
-export function productPhoto(slug: string): string {
-  return photos[slug] ?? '/media/cam-white.jpg'
+type PhotoSource = {
+  slug: string
+  category?: string
+  image_path?: string | null
 }
 
-export function productFocus(slug: string): string {
-  return focus[slug] ?? 'center'
+function isIllustration(path: string): boolean {
+  return path.toLowerCase().endsWith('.svg')
+}
+
+export function hasProductImage(source: { image_path?: string | null }): boolean {
+  return typeof source.image_path === 'string' && source.image_path.trim() !== ''
+}
+
+function mediaUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) {
+    return path
+  }
+  if (path.startsWith('/storage/')) {
+    return `http://${window.location.hostname}:8000${path}`
+  }
+  return path
+}
+
+export function productPhoto(source: string | PhotoSource): string {
+  if (typeof source !== 'string') {
+    const path = source.image_path?.trim() ?? ''
+    if (path !== '' && !isIllustration(path)) {
+      return mediaUrl(path)
+    }
+    if (source.category && categoryPhotos[source.category]) {
+      return categoryPhotos[source.category]
+    }
+  }
+
+  const slug = typeof source === 'string' ? source : source.slug
+  return photos[slug] ?? categoryPhotos['Bullet Camera']
 }
 
 export function productBadge(product: Product): string | null {
@@ -30,5 +62,5 @@ export function productBadge(product: Product): string | null {
 }
 
 export function visibleSpecs(product: Product): Array<[string, string]> {
-  return Object.entries(product.specifications).filter(([key]) => key !== 'Badge')
+  return Object.entries(product.specifications).filter(([key]) => key !== 'Badge' && key !== 'Brand')
 }

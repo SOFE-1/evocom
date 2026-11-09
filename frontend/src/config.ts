@@ -1,6 +1,8 @@
 export const company = {
   name: 'Evocom',
   legalName: 'Evocom Information Technology Services',
+  wordmark: 'Evocom Information Technology Services',
+  descriptor: 'Information Technology Services',
   tagline: 'CCTV & security solutions',
   city: 'Rodriguez, Rizal',
   addressLines: ['B18 L20 Ph 1, Costa Homes 5', 'Rodriguez, Rizal, Philippines'],
@@ -16,13 +18,6 @@ export const terms = {
   downPaymentPercent: 70,
   warrantyYears: 1,
 }
-
-export const stats = [
-  { value: '1,200+', label: 'Systems installed' },
-  { value: '24/7', label: 'Monitoring support' },
-  { value: '12+', label: 'Years of experience' },
-  { value: '100%', label: 'Licensed & insured' },
-]
 
 export const services = [
   {
@@ -47,10 +42,20 @@ export const services = [
   },
   {
     title: 'Maintenance & Support',
-    body: 'Scheduled maintenance, firmware updates, and rapid on-site repair to keep your system running 24/7.',
+    body: 'Scheduled maintenance, firmware updates, and on-site repair for installed systems.',
   },
 ]
 
 export const propertyTypes = ['Residential', 'Commercial', 'Warehouse', 'School', 'Healthcare', 'Retail']
 
-export const productFilters = ['All', 'Dome', 'Bullet', 'PTZ', 'Turret', 'Multi-Sensor'] as const
+export const productTypes = [
+  'Bullet Camera',
+  'PTZ Camera',
+  'Dome Camera',
+  'Turret Camera',
+  'Multi-Sensor Camera',
+] as const
+
+export const productFilters = ['All', ...productTypes] as const
+
+export const supplierFilters = ['All', 'Hikvision', 'Dahua', 'Imou', 'Evocom'] as const

@@ -10,14 +10,30 @@ export type QuoteStatus =
   | 'completed'
   | 'cancelled'
 
+export type PaymentStatus = 'pending' | 'partial' | 'paid'
+
+export type PaymentRecord = {
+  id: number
+  client_name: string
+  reference_code: string
+  amount: string
+  paid_on: string
+  method: string
+  status: PaymentStatus
+  remarks: string | null
+}
+
 export type Product = {
   id: number
   name: string
   slug: string
   category: string
+  brand: string
+  image_path: string | null
   short_description: string
   description: string
   approx_price: string
+  price_max: string | null
   specifications: Record<string, string>
   sort_order: number
   is_active: boolean
@@ -29,6 +45,7 @@ export type CartItem = {
   slug: string
   category: string
   subtitle: string
+  image_path?: string | null
   approx_price: number
   quantity: number
 }
@@ -72,6 +89,16 @@ export type ScheduleEvent = {
   starts_at: string
   ends_at: string
   notes: string | null
+  cancelled_at: string | null
+}
+
+export type QuoteCharge = {
+  id: number
+  category: string
+  description: string
+  quantity: string
+  unit_price: string | null
+  finalized: boolean
 }
 
 export type Warranty = {
@@ -101,6 +128,12 @@ export type QuoteSummary = {
   approx_total: string
   quoted_total: string | null
   created_at: string
+  payment_status: PaymentStatus
+  amount_paid: string
+  amount_due: string | null
+  balance_remaining: string | null
+  payments_count: number
+  latest_payment_on: string | null
 }
 
 export type QuoteDetail = QuoteSummary & {
@@ -114,6 +147,8 @@ export type QuoteDetail = QuoteSummary & {
   assigned_technician_id: number | null
   assigned_technician_name: string | null
   items: QuoteItem[]
+  charges: QuoteCharge[]
+  payments: PaymentRecord[]
   media: MediaFile[]
   notes: Note[]
   schedules: ScheduleEvent[]

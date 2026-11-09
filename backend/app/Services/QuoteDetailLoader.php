@@ -18,8 +18,10 @@ class QuoteDetailLoader
 
         return $quote->load([
             'items',
+            'charges',
             'media',
             'notes',
+            'payments',
             'schedules.technician',
             'schedules.quoteRequest',
             'warranty',

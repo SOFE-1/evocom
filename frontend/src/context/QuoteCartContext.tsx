@@ -77,6 +77,7 @@ export function QuoteCartProvider({ children }: { children: ReactNode }) {
               slug: product.slug,
               category: product.category,
               subtitle: product.short_description,
+              image_path: product.image_path,
               approx_price: Number(product.approx_price),
               quantity: 1,
             },

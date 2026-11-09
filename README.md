@@ -1,4 +1,4 @@
-# EVOCOM
+# Evocom
 
 CCTV supply and installation site for Montalban, Rizal. Customers build a quote list and request an installation. The office prices it, records the 70% down payment, schedules the work, and starts a one-year warranty when the project is complete.
 
@@ -59,14 +59,9 @@ npm run dev
 
 The site is at http://127.0.0.1:5173 and the API at http://127.0.0.1:8000.
 
-Local admin sign-in, from the seeder:
+The admin account email is `admin@evocom.local`. The password is set in the database and is not stored in this repository. Set or change it with `php artisan tinker` on the server. Do not put the password in the frontend, the seeder, or this file.
 
-- Email: `admin@evocom.local`
-- Password: `password`
-
-Change that password before this is used outside your machine.
-
-Phone, email, Facebook, and Viber on the public site are placeholders in `frontend/src/config.ts`.
+The public site uses the phone, email, and address in `frontend/src/config.ts`. Facebook and Viber buttons are omitted until the business provides those links.
 
 ## Quotation path
 

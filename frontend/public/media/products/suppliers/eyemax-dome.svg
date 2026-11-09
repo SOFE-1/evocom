@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#0b1220"/>
+  <text x="48" y="78" fill="#93c5fd" font-family="Arial, sans-serif" font-size="22" letter-spacing="3">EYEMAX</text>
+  <text x="48" y="124" fill="#ffffff" font-family="Arial, sans-serif" font-size="40" font-weight="700">Dome camera</text>
+  <text x="48" y="168" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">NIT-E8032</text>
+  <rect x="280" y="250" width="240" height="28" rx="6" fill="#c5d0e0"/><path d="M310 250c20-90 160-90 180 0" fill="#e8eef8"/><circle cx="400" cy="230" r="22" fill="#0b1220"/>
+  <text x="48" y="500" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">Catalog illustration · specifications from the published datasheet</text>
+</svg>

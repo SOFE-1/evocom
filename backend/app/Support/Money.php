@@ -14,6 +14,16 @@ final class Money
         return bcadd($left, $right, 2);
     }
 
+    public static function sub(string $left, string $right): string
+    {
+        return bcsub(self::normalize($left), self::normalize($right), 2);
+    }
+
+    public static function compare(string $left, string $right): int
+    {
+        return bccomp(self::normalize($left), self::normalize($right), 2);
+    }
+
     public static function percent(string $amount, int $percent): string
     {
         return bcmul($amount, bcdiv((string) $percent, '100', 4), 2);

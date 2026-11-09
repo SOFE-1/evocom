@@ -2,11 +2,14 @@
 
 namespace App\Services;
 
+use App\Mail\QuoteReceivedMail;
+use App\Models\AdminNotification;
 use App\Models\Product;
 use App\Models\QuoteRequest;
 use App\Support\Money;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 
@@ -20,9 +23,14 @@ class QuoteRequestService
      */
     public function submit(array $data, array $uploads = []): QuoteRequest
     {
+        $duplicate = $this->recentDuplicate($data);
+        if ($duplicate !== null) {
+            return $duplicate->load(['items', 'media']);
+        }
+
         $lines = $this->lines($data['items'] ?? null);
 
-        return DB::transaction(function () use ($data, $uploads, $lines) {
+        $quote = DB::transaction(function () use ($data, $uploads, $lines) {
             $productIds = collect($lines)->pluck('product_id')->unique()->all();
             $products = Product::query()
                 ->whereIn('id', $productIds)
@@ -78,8 +86,38 @@ class QuoteRequestService
                 $this->files->storeLayouts($quote, $uploads);
             }
 
+            AdminNotification::query()->create([
+                'quote_request_id' => $quote->id,
+            ]);
+
             return $quote->load(['items', 'media']);
         });
+
+        try {
+            Mail::to($quote->customer_email)->send(new QuoteReceivedMail($quote));
+        } catch (\Throwable $exception) {
+            report($exception);
+        }
+
+        return $quote;
+    }
+
+    /**
+     * @param  array<string, mixed>  $data
+     */
+    private function recentDuplicate(array $data): ?QuoteRequest
+    {
+        $email = mb_strtolower(trim((string) $data['customer_email']));
+        $message = trim((string) ($data['message'] ?? ''));
+
+        return QuoteRequest::query()
+            ->whereRaw('lower(customer_email) = ?', [$email])
+            ->where('customer_phone', $data['customer_phone'])
+            ->where('location', $data['location'])
+            ->whereRaw("coalesce(message, '') = ?", [$message])
+            ->where('created_at', '>=', now()->subMinutes(15))
+            ->latest('id')
+            ->first();
     }
 
     /**
@@ -87,12 +125,20 @@ class QuoteRequestService
      */
     private function lines(mixed $raw): array
     {
+        if ($raw === null || $raw === '') {
+            return [];
+        }
+
         $decoded = is_string($raw) ? json_decode($raw, true) : $raw;
 
-        if (! is_array($decoded) || $decoded === []) {
+        if (! is_array($decoded)) {
             throw ValidationException::withMessages([
-                'items' => 'Add at least one product to the quote list.',
+                'items' => 'The selected products could not be read.',
             ]);
+        }
+
+        if ($decoded === []) {
+            return [];
         }
 
         $lines = [];

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550">
+  <rect width="800" height="550" fill="#0b1220"/>
+  <text x="48" y="78" fill="#93c5fd" font-family="Arial, sans-serif" font-size="22" letter-spacing="3">DAHUA</text>
+  <text x="48" y="130" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">Turret camera</text>
+  <rect x="300" y="280" width="200" height="36" rx="8" fill="#c5d0e0"/>
+  <circle cx="400" cy="250" r="70" fill="#e8eef8"/>
+  <circle cx="400" cy="250" r="28" fill="#0b1220"/>
+  <text x="48" y="500" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">Catalog illustration. Model details come from the Dahua Philippines catalog.</text>
+</svg>

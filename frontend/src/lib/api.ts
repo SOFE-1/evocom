@@ -79,3 +79,24 @@ export async function api<T>(path: string, options: RequestInit = {}): Promise<T
 
   return payload as T
 }
+
+export async function downloadFile(path: string, filename: string): Promise<void> {
+  const headers = new Headers()
+  const token = getToken()
+  if (token) {
+    headers.set('Authorization', `Bearer ${token}`)
+  }
+
+  const response = await fetch(`${API_URL}${path}`, { headers })
+  if (!response.ok) {
+    throw new ApiError('The file could not be downloaded.', response.status)
+  }
+
+  const blob = await response.blob()
+  const url = URL.createObjectURL(blob)
+  const anchor = document.createElement('a')
+  anchor.href = url
+  anchor.download = filename
+  anchor.click()
+  URL.revokeObjectURL(url)
+}

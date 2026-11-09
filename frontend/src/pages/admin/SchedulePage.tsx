@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import { Link } from 'react-router-dom'
-import { Button, fieldClass } from '../../components/ui'
+import { Icon } from '../../components/Icon'
+import { Button, Eyebrow, cardClass, fieldClass, labelClass } from '../../components/ui'
 import { api, errorText } from '../../lib/api'
-import { dayKey, formatWhen } from '../../lib/format'
+import { dayKey, formatDay, formatWhen } from '../../lib/format'
 import type { ScheduleEvent, Technician } from '../../types'
 
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 export function SchedulePage() {
   const today = new Date()
+  const todayKey = dayKey(today)
   const [cursor, setCursor] = useState({ year: today.getFullYear(), month: today.getMonth() })
   const [events, setEvents] = useState<ScheduleEvent[]>([])
   const [technicians, setTechnicians] = useState<Technician[]>([])
@@ -55,23 +57,26 @@ export function SchedulePage() {
   }
 
   return (
-    <div className="px-4 py-6 lg:px-6">
-      <p className="text-xs tracking-[0.16em] text-copper uppercase">Technician scheduler</p>
-      <div className="mt-1 flex items-center justify-between gap-3">
-        <h1 className="font-display text-4xl tracking-wide uppercase">{label}</h1>
+    <div className="px-4 py-6 lg:px-8 lg:py-8">
+      <Eyebrow>Technician scheduler</Eyebrow>
+      <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-3xl font-extrabold tracking-tight">{label}</h1>
         <div className="flex gap-2">
-          <Button variant="ghost" onClick={() => setCursor((current) => shiftMonth(current, -1))}>
-            Previous
+          <Button variant="ghost" aria-label="Previous month" className="px-3" onClick={() => setCursor((current) => shiftMonth(current, -1))}>
+            <Icon name="chevron-left" className="h-4 w-4" />
           </Button>
-          <Button variant="ghost" onClick={() => setCursor((current) => shiftMonth(current, 1))}>
-            Next
+          <Button variant="ghost" onClick={() => setCursor({ year: today.getFullYear(), month: today.getMonth() })}>
+            Today
+          </Button>
+          <Button variant="ghost" aria-label="Next month" className="px-3" onClick={() => setCursor((current) => shiftMonth(current, 1))}>
+            <Icon name="chevron-right" className="h-4 w-4" />
           </Button>
         </div>
       </div>
-      {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
-      <div className="mt-5 grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
-        <div className="rounded-2xl border border-line bg-white p-3">
-          <div className="grid grid-cols-7 gap-1 text-center text-[11px] tracking-wide text-muted uppercase">
+      {error && <p role="alert" className="mt-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>}
+      <div className="mt-6 grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_380px]">
+        <div className={`p-2 sm:p-4 ${cardClass}`}>
+          <div className="grid grid-cols-7 gap-1 text-center font-mono text-[11px] font-medium tracking-wide text-muted uppercase">
             {weekdays.map((day) => (
               <div key={day} className="py-2">
                 {day}
@@ -87,26 +92,42 @@ export function SchedulePage() {
                 <button
                   key={key + day.getMonth()}
                   type="button"
-                  onClick={() => setSelectedDay(key)}
-                  className={`min-h-16 rounded-lg border px-2 py-1 text-left text-sm ${
-                    selectedDay === key ? 'border-copper bg-sand' : 'border-transparent'
-                  } ${inMonth ? 'text-ink' : 'text-muted/50'}`}
+                  aria-pressed={selectedDay === key}
+                  onClick={() => setSelectedDay((current) => (current === key ? null : key))}
+                  className={`flex min-h-16 min-w-0 flex-col items-start justify-start rounded-lg border p-1.5 text-left text-sm transition sm:min-h-24 sm:p-2 ${
+                    selectedDay === key ? 'border-copper bg-signal ring-1 ring-copper' : 'border-line hover:border-slate-300'
+                  } ${inMonth ? 'bg-white text-ink' : 'bg-paper/70 text-slate-400'}`}
                 >
-                  {day.getDate()}
-                  {count > 0 && <span className="mt-1 block text-[11px] text-copper">{count} booked</span>}
+                  <span className={`grid h-6 w-6 place-items-center rounded-full font-mono text-xs ${key === todayKey ? 'bg-copper font-semibold text-white' : ''}`}>
+                    {day.getDate()}
+                  </span>
+                  {count > 0 && (
+                    <span className="mt-1 block w-full truncate rounded bg-tide px-1 py-0.5 text-[11px] font-medium text-tide-ink sm:px-1.5">
+                      {count}<span className="hidden sm:inline"> booked</span>
+                    </span>
+                  )}
                 </button>
               )
             })}
           </div>
         </div>
         <div className="space-y-4">
-          <section className="rounded-2xl border border-line bg-white p-4">
-            <h2 className="text-sm font-semibold">{selectedDay ? `Events on ${selectedDay}` : 'Events this month'}</h2>
+          <section className={`p-4 ${cardClass}`}>
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="font-bold">{selectedDay ? `Events on ${formatDay(selectedDay)}` : 'Events this month'}</h2>
+              {selectedDay && (
+                <button type="button" className="text-xs font-semibold text-copper" onClick={() => setSelectedDay(null)}>
+                  Show all
+                </button>
+              )}
+            </div>
             <ul className="mt-3 space-y-3">
-              {visible.length === 0 && <li className="text-sm text-muted">Nothing scheduled.</li>}
+              {visible.length === 0 && (
+                <li className="rounded-lg border border-dashed border-slate-300 px-3 py-6 text-center text-sm text-muted">Nothing scheduled.</li>
+              )}
               {visible.map((event) => (
-                <li key={event.id} className="border-b border-line pb-3 text-sm last:border-0">
-                  <p className="font-medium">
+                <li key={event.id} className="border-b border-line pb-3 text-sm last:border-0 last:pb-0">
+                  <p className="font-semibold">
                     {event.event_type === 'ocular' ? 'Ocular' : 'Installation'} · {event.technician_name}
                   </p>
                   <p className="text-muted">
@@ -114,7 +135,7 @@ export function SchedulePage() {
                   </p>
                   <p className="text-xs text-muted">{formatWhen(event.starts_at)}</p>
                   {event.quote_request_id && (
-                    <Link to={`/admin?quote=${event.quote_request_id}`} className="text-xs font-semibold text-copper">
+                    <Link to={`/admin?quote=${event.quote_request_id}`} className="font-mono text-xs font-medium text-copper hover:text-copper-dark">
                       Open {event.reference_code}
                     </Link>
                   )}
@@ -122,21 +143,39 @@ export function SchedulePage() {
               ))}
             </ul>
           </section>
-          <section className="rounded-2xl border border-line bg-white p-4">
-            <h2 className="text-sm font-semibold">Technicians</h2>
-            <ul className="mt-2 space-y-1 text-sm">
+          <section className={`p-4 ${cardClass}`}>
+            <h2 className="font-bold">Technicians</h2>
+            <ul className="mt-2 space-y-1.5 text-sm">
+              {technicians.length === 0 && <li className="text-muted">No technicians yet. Add your first one below.</li>}
               {technicians.map((technician) => (
-                <li key={technician.id}>
-                  {technician.name}
-                  {technician.specialty ? <span className="text-muted"> — {technician.specialty}</span> : null}
+                <li key={technician.id} className="flex items-center gap-2.5">
+                  <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-tide text-[11px] font-bold text-tide-ink">
+                    {technician.name.slice(0, 1).toUpperCase()}
+                  </span>
+                  <span className="min-w-0">
+                    {technician.name}
+                    {technician.specialty ? <span className="text-muted"> — {technician.specialty}</span> : null}
+                  </span>
                 </li>
               ))}
             </ul>
-            <form onSubmit={addTechnician} className="mt-3 space-y-2">
-              <input className={fieldClass} required placeholder="Name" value={name} onChange={(event) => setName(event.target.value)} />
-              <input className={fieldClass} placeholder="Phone" value={phone} onChange={(event) => setPhone(event.target.value)} />
-              <input className={fieldClass} placeholder="Specialty" value={specialty} onChange={(event) => setSpecialty(event.target.value)} />
-              <Button type="submit" variant="ghost">
+            <form onSubmit={addTechnician} className="mt-4 space-y-3 border-t border-line pt-4">
+              <label className={labelClass}>
+                Name
+                <input className={`${fieldClass} mt-1`} required value={name} onChange={(event) => setName(event.target.value)} />
+              </label>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <label className={labelClass}>
+                  Phone
+                  <input className={`${fieldClass} mt-1`} value={phone} onChange={(event) => setPhone(event.target.value)} />
+                </label>
+                <label className={labelClass}>
+                  Specialty
+                  <input className={`${fieldClass} mt-1`} value={specialty} onChange={(event) => setSpecialty(event.target.value)} />
+                </label>
+              </div>
+              <Button type="submit" variant="ghost" className="w-full">
+                <Icon name="plus" className="h-4 w-4" />
                 Add technician
               </Button>
             </form>
